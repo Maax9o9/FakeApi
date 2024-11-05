@@ -1,0 +1,7 @@
+<div *ngIf="pokemon">
+    <h2>{{ pokemon.name | uppercase }}</h2>
+    <p>Height: {{ pokemon.height }} decimeters</p>
+    <p>Weight: {{ pokemon.weight }} hectograms</p>
+    <p>Type(s): {{ pokemon.types.join(', ') }}</p>
+  </div>
+  

@@ -1,0 +1,24 @@
+nav {
+  background-color: #f8f9fa; 
+  padding: 10px; 
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline; 
+  margin-right: 15px; 
+}
+
+nav a {
+  text-decoration: none; 
+  color: #007bff; 
+  cursor: pointer; 
+}
+
+nav a:hover {
+  text-decoration: underline; 
+}

@@ -1,0 +1,10 @@
+<div *ngIf="pokemon">
+  <h2>{{ pokemon.name | titlecase }}</h2>
+  <img [src]="pokemon.sprites.front_default" alt="{{ pokemon.name }}" />
+  <p>Types: {{ getTypeNames() }}</p>
+  <p>Abilities: {{ getAbilityNames() }}</p>
+  <p>Games: {{ getGameIndices() }}</p>
+</div>
+<div *ngIf="!pokemon">
+  <p>Loading...</p>
+</div>

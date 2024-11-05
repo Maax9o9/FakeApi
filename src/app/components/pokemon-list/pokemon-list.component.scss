@@ -1,0 +1,9 @@
+.favorite-icon {
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .favorite-icon:hover {
+    transform: scale(1.2);
+  }
+  
